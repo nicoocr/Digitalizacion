@@ -8,7 +8,7 @@
         /* Estilos generales */
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
+            background-color: #f0f2f5;
             color: #333;
             margin: 0;
             padding: 0;
@@ -16,32 +16,30 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            overflow: hidden;
         }
         .container {
             background: #fff;
             border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
             padding: 40px;
             max-width: 800px;
             width: 90%;
-            border-left: 4px solid #4CAF50;
             animation: fadeIn 1.5s ease-in-out;
             transform: translateY(0);
         }
         h1 {
-            text-align: left;
-            color: #4CAF50;
-            font-size: 2.2em;
-            margin-bottom: 5px;
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
             animation: slideIn 1.2s ease-in-out;
         }
         h2 {
-            color: #333;
-            border-bottom: 2px solid #4CAF50;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
             display: inline-block;
-            margin-bottom: 15px;
-            font-size: 1.5em;
+            margin-bottom: 20px;
+            font-size: 1.8em;
             animation: fadeIn 1.5s ease-in-out;
         }
         p {
@@ -51,7 +49,7 @@
             animation: fadeInUp 1s ease-in-out;
         }
         .section {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
         .skills, .experience, .projects {
             display: flex;
@@ -59,25 +57,25 @@
             gap: 15px;
         }
         .skill, .job, .project {
-            background-color: #f9f9f9;
-            border-radius: 5px;
-            padding: 15px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            border-left: 3px solid #4CAF50;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #3498db;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .skill:hover, .job:hover, .project:hover {
             transform: translateY(-5px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
         }
         .contact {
-            text-align: left;
-            background-color: #4CAF50;
+            text-align: center;
+            background-color: #3498db;
             color: #fff;
             padding: 15px;
             border-radius: 5px;
-            margin-top: 20px;
-            font-size: 1.1em;
+            margin-top: 30px;
+            font-size: 1.2em;
             animation: fadeInUp 1s ease-in-out;
         }
         .contact a {
@@ -106,16 +104,15 @@
 <body>
     <div class="container">
         <h1>Nicolás Cervera Rodríguez</h1>
-        <p>Desarrollador Web con experiencia en la creación de soluciones digitales modernas, especializándome en el desarrollo front-end y back-end. Busco continuamente mejorar mis habilidades y contribuir a proyectos que marquen la diferencia.</p>
+        <p>Desarrollador Web con amplia experiencia en la creación de soluciones digitales innovadoras. Especializado en desarrollo front-end y back-end, con un enfoque en la mejora continua y en la entrega de proyectos de alto impacto.</p>
 
         <div class="section">
             <h2>Habilidades</h2>
             <div class="skills">
-                <div class="skill">Desarrollo Front-End (HTML, CSS, JavaScript)</div>
-                <div class="skill">Frameworks: React, Angular</div>
-                <div class="skill">Desarrollo Back-End (Node.js, Express)</div>
-                <div class="skill">Bases de Datos (SQL, MongoDB)</div>
-                <div class="skill">Control de Versiones (Git, GitHub)</div>
+                <div class="skill">Desarrollo Front-End (HTML, CSS, JavaScript, React, Angular)</div>
+                <div class="skill">Desarrollo Back-End (Node.js, Express, Django)</div>
+                <div class="skill">Bases de Datos (MySQL, MongoDB)</div>
+                <div class="skill">Control de Versiones (Git, GitHub, GitLab)</div>
                 <div class="skill">Metodologías Ágiles (Scrum, Kanban)</div>
             </div>
         </div>
@@ -124,12 +121,12 @@
             <h2>Proyectos Destacados</h2>
             <div class="projects">
                 <div class="project">
-                    <h3>Sistema de Gestión de Tareas</h3>
-                    <p>Aplicación web completa para gestionar tareas diarias con funcionalidades de filtrado, asignación de prioridades y seguimiento del progreso.</p>
+                    <h3>Sistema de Gestión de Proyectos</h3>
+                    <p>Plataforma completa para la administración de tareas y proyectos, con integración de seguimiento de tiempo y asignación de recursos.</p>
                 </div>
                 <div class="project">
-                    <h3>Plataforma E-commerce</h3>
-                    <p>Tienda en línea con carrito de compras, pago seguro y gestión de inventario, desarrollada utilizando React y Node.js.</p>
+                    <h3>Tienda Virtual con Pago Seguro</h3>
+                    <p>E-commerce con pasarela de pagos segura y sistema de gestión de inventarios, desarrollado con tecnologías modernas.</p>
                 </div>
             </div>
         </div>
@@ -138,12 +135,12 @@
             <h2>Experiencia Profesional</h2>
             <div class="experience">
                 <div class="job">
-                    <h3>Desarrollador Full-Stack - Empresa XYZ</h3>
-                    <p>Responsable de crear y mantener aplicaciones web con tecnologías modernas, mejorando la experiencia de usuario y la eficiencia del backend.</p>
+                    <h3>Desarrollador Full-Stack - Empresa ABC</h3>
+                    <p>Diseño y desarrollo de aplicaciones web para mejorar la eficiencia del negocio. Implementación de soluciones escalables para proyectos de alto tráfico.</p>
                 </div>
                 <div class="job">
-                    <h3>Freelance - Consultoría en Desarrollo Web</h3>
-                    <p>Desarrollé soluciones personalizadas para clientes, mejorando su presencia en línea a través de sitios web optimizados y aplicaciones web interactivas.</p>
+                    <h3>Desarrollador Freelance</h3>
+                    <p>Consultoría en desarrollo web y soluciones personalizadas para clientes en diferentes sectores. Creación de sitios web optimizados y aplicaciones interactivas.</p>
                 </div>
             </div>
         </div>
@@ -154,3 +151,4 @@
     </div>
 </body>
 </html>
+
